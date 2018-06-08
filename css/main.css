@@ -6,6 +6,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration-color: #ddd;
 }
 
 h1 {
@@ -51,6 +52,7 @@ h2 {
 
 ul {
   margin-top: 0;
+  padding-left: 0;
   list-style: none;
   line-height: 1.5;
   color: #333;
@@ -71,4 +73,27 @@ li:before {
   color: #666;
   font-size: 12px;
   margin: 40px 0;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h1 .line1 {
+    font-size: 60px;
+  }
+
+  .divider {
+    max-width: 300px;
+  }
+  .sub {
+    font-size: 36px;
+  }
+
+  .body {
+    font-size: 20px;
+  }
+  ul {
+  }
 }
