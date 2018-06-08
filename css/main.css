@@ -12,7 +12,7 @@ a {
 
 h1 {
   font-size: 74px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h1 .line1 {
@@ -49,6 +49,16 @@ h2 {
   font-size: 36px;
   color: #333;
   margin-bottom: 10px;
+}
+
+.tilt {
+  text-align: left;
+  max-width: 450px;
+  margin: 20px auto 0;
+  font-family: 'Allura';
+  transform: rotate(-4deg);
+  font-size: 26px;
+  color: #333;
 }
 
 ul {
