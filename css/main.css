@@ -2,6 +2,7 @@ body {
   text-align: center;
   font-family: 'Montserrat', helvetica neueu, arial, sans-serif;
   color: #90261C;
+  padding: 0 10px;
 }
 
 a {
@@ -88,7 +89,7 @@ li:before {
     max-width: 300px;
   }
   .sub {
-    font-size: 36px;
+    font-size: 34px;
   }
 
   .body {
