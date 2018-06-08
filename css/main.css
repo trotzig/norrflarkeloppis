@@ -4,8 +4,12 @@ body {
   color: #90261C;
 }
 
+a {
+  color: inherit;
+}
+
 h1 {
-  font-size: 75px;
+  font-size: 74px;
   margin-bottom: 0;
 }
 
@@ -17,11 +21,54 @@ h1 b {
   font-size: larger;
 }
 
-hr {
+.sub {
+  font-size: 50px;
+}
 
+.divider {
+  max-width: 440px;
+  margin: 30px auto;
+  border-top: 3px solid #90261C;
+  position: relative;
+}
+
+.divider .image {
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 20px);
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
 }
 
 h2 {
   font-family: 'Allura';
-  font-size: 40px;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 0;
+  list-style: none;
+  line-height: 1.5;
+  color: #333;
+}
+
+li:before {
+  content: "◆ ";
+  color: #90261C;
+}
+
+.body {
+  color: #333;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.footer {
+  color: #666;
+  font-size: 12px;
+  margin: 40px 0;
 }
